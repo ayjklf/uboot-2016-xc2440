@@ -1,0 +1,15 @@
+if TARGET_XC2440
+
+config SYS_BOARD
+	default "xc2440"
+
+config SYS_VENDOR
+	default "samsung"
+
+config SYS_SOC
+	default "s3c24x0"
+
+config SYS_CONFIG_NAME
+	default "xc2440"
+
+endif
